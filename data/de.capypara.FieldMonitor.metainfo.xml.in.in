@@ -76,6 +76,35 @@
 	</description>
 
 	<releases>
+		<release version="51.0" date="2026-09-19">
+			<description translate="no">
+				<p>This release updates Field Monitor for GNOME 51 and adds several major changes and improvements.</p>
+				<ul>
+					<li>Added support for connecting to QEMU's D-Bus interface directly when using KVM/QEMU via libvirt
+						and when such a display is configured.
+					</li>
+					<li>Each Field Monitor window can now contain exactly one open connection, there is no way to
+						switch between connections in a single window anymore. This simplifies the UI/UX and also
+						fixes some performance and stability issues. You can still open new windows to connect to
+						multiple connections at the same time and configure Field Monitor to open new windows by
+						default.
+					</li>
+					<li>Fixed major performance issues when having Field Monitor open for a prolonged period of time.
+						The server rows in the connection list are now only updated when the list is actively visible.
+					</li>
+					<li>Field Monitor has been localized into Chinese (thanks to GitHub user lumingzh).</li>
+					<li>Field Monitor is now fully navigable with the keyboard. Previously after ungrabbing the keyboard
+						from a remote screen, you were not able to access any of the Field Monitor UI anymore; this
+						has been fixed. Grabbing and ungrabbing input should now be more consistent in general.
+					</li>
+					<li>Removed compatibility claims about GNOME Boxes (now Boxes), since Field Monitor will not
+						be able to connect to VMs of new Boxes versions.
+					</li>
+					<li>Fixed minor bugs.</li>
+					<li>All libraries used by Field Monitor have been updated.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="50.1" date="2026-05-21">
 			<description translate="no">
 				<p>This release brings some small improvements and bug fixes.</p>
@@ -176,6 +205,9 @@
 			<image>
 				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/connected.png
 			</image>
+			<image xml:lang="de">
+				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/de/connected.png
+			</image>
 		</screenshot>
 		<screenshot>
 			<!-- Translators: Caption of the second screenshot in the metainfo -->
@@ -190,6 +222,9 @@
 			<image>
 				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/connection-list.png
 			</image>
+			<image xml:lang="de">
+				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/de/connection-list.png
+			</image>
 		</screenshot>
 		<screenshot>
 			<!-- Translators: Caption of the 4th screenshot in the metainfo -->
@@ -197,12 +232,18 @@
 			<image>
 				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/vte.png
 			</image>
+			<image xml:lang="de">
+				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/de/vte.png
+			</image>
 		</screenshot>
 		<screenshot>
 			<!-- Translators: Caption of the 5th screenshot in the metainfo -->
 			<caption>Adding a new Proxmox Virtual Environment hypervisor connection</caption>
 			<image>
 				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/adding-proxmox.png
+			</image>
+			<image xml:lang="de">
+				https://raw.githubusercontent.com/theCapypara/field-monitor/refs/heads/main/data/screenshots/de/adding-proxmox.png
 			</image>
 		</screenshot>
 	</screenshots>
