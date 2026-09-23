@@ -610,7 +610,9 @@ msgstr "使用新窗口打开应用"
 #. Translators: Add yourself here. Format: YOUR NAME <YOUR@EMAIL.TLD>
 #: src/application.rs:580
 msgid "translator-credits"
-msgstr "lingyicute / lyi 梨 <lingyicute@gmail.com>, 2026"
+msgstr ""
+"lingyicute / lyi 梨 <lingyicute@gmail.com>, 2026\n"
+"lumingzh <lumingzh@qq.com>, 2026"
 
 #: src/application.rs:589 src/connection_loader.rs:437
 #: src/widget/add_connection_dialog.rs:210
