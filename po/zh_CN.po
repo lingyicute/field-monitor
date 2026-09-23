@@ -57,7 +57,7 @@ msgstr "连接一个或更多 RDP、SPICE 和 VNC 服务器"
 
 #: connection/generic-group/src/lib.rs:148
 msgid "One or more fields contain invalid values."
-msgstr "一个或更多的域包含无效值。"
+msgstr "一个或更多的字段包含无效值。"
 
 #: connection/generic-group/src/lib.rs:371
 msgid "Failed to load password."
@@ -925,7 +925,7 @@ msgstr "信任此服务器吗？"
 
 #: src/widget/certificate_trust_dialog.rs:139
 msgid "Do you trust this certificate and want to establish a connection?"
-msgstr "您是否信任此服务器并希望建立连接？"
+msgstr "您是否信任此证书并希望建立连接？"
 
 #: src/widget/certificate_trust_dialog.rs:167
 msgid "Fingerprint"
