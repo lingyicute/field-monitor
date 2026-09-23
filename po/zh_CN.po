@@ -175,7 +175,7 @@ msgstr "关机"
 #: connection/libvirt/src/connection/mod.rs:216
 #: connection/proxmox/src/api/vm.rs:73
 msgid "Force Reset"
-msgstr "强制重启"
+msgstr "强制复位"
 
 #: connection/libvirt/src/connection/mod.rs:217
 #: connection/proxmox/src/api/vm.rs:68 connection/proxmox/src/api/vm.rs:74
@@ -212,14 +212,14 @@ msgstr "发送关机命令失败：{err}"
 
 #: connection/libvirt/src/connection/mod.rs:307
 msgid "Domain successfully reset."
-msgstr "虚拟机已成功重置。"
+msgstr "虚拟机已成功复位。"
 
 #. Translators: Do NOT translate the content between '{' and '}', this is a
 #. variable name.
 #: connection/libvirt/src/connection/mod.rs:312
 #, rust-format
 msgid "Failed to reset domain: {err}"
-msgstr "重置虚拟机失败：{err}"
+msgstr "复位虚拟机失败：{err}"
 
 #: connection/libvirt/src/connection/mod.rs:333
 msgid "Domain successfully shut down."
@@ -359,11 +359,11 @@ msgstr "关机命令已成功发送至虚拟机。"
 
 #: connection/proxmox/src/api/vm.rs:197
 msgid "VM was successfully reset."
-msgstr "虚拟机已成功重置。"
+msgstr "虚拟机已成功复位。"
 
 #: connection/proxmox/src/api/vm.rs:200
 msgid "Failed to send reset command."
-msgstr "发送重置命令失败。"
+msgstr "发送复位命令失败。"
 
 #: connection/proxmox/src/api/vm.rs:230
 msgid "VM is now stopping."
@@ -400,7 +400,7 @@ msgstr "API 密钥"
 
 #: connection/proxmox/src/credential_preferences.blp:26
 msgid "Token ID"
-msgstr "口令 ID"
+msgstr "令牌 ID"
 
 #: connection/proxmox/src/preferences.blp:18
 msgid "Connection"
@@ -960,7 +960,7 @@ msgid ""
 "If you choose to trust this certificate, your choice will be remembered for "
 "future connections to <tt>{host}</tt>."
 msgstr ""
-"如果您选择信任此证书，您的选择将会被记住以用于未来与 <tt>{host}</tt> 的连接。"
+"如果您选择信任此证书，软件将记住您的选择，以便日后连接到 <tt>{host}</tt> 时使用。"
 
 #: src/widget/certificate_trust_dialog.rs:239
 #: src/widget/close_warning_dialog.rs:78
@@ -1140,7 +1140,7 @@ msgstr "远程服务器屏幕"
 
 #: src/widget/connection_view/server_screen.blp:211
 msgid "Press any key to grab input."
-msgstr "按任意键以抓取输入设备。"
+msgstr "按任意键以捕获输入设备。"
 
 #. Translators: Do NOT translate the content between '{' and '}', this is a
 #. variable name.
@@ -1360,7 +1360,7 @@ msgstr "锐利窗口夹角"
 
 #: src/widget/preferences.blp:46 src/widget/preferences.rs:234
 msgid "Header bars for active connections"
-msgstr "用于活动连接的标头栏"
+msgstr "用于活动连接的顶栏"
 
 #: src/widget/preferences.blp:66
 msgid "Show ungrab key combination"
@@ -1411,7 +1411,7 @@ msgstr ""
 msgid ""
 "Use the default corner radius, but make window corners sharp whenever input "
 "is grabbed."
-msgstr "使用默认圆角，但在抓取输入设备后使窗口夹角锐化。"
+msgstr "使用默认圆角，但在捕获输入设备后使窗口夹角锐化。"
 
 #: src/widget/preferences.rs:208
 msgid "Always use sharp window corners."
@@ -1423,27 +1423,27 @@ msgstr "永不使用锐利的窗口夹角。"
 
 #: src/widget/preferences.rs:235
 msgid "Change how the header bar is presented for active connection screens."
-msgstr "更改活动连接屏幕标头栏的呈现方式。"
+msgstr "更改活动连接屏幕中顶栏的呈现方式。"
 
 #: src/widget/preferences.rs:237
 msgid ""
 "The header bar is shown above the connection screen. In fullscreen mode, "
 "the header bar is instead overlaid and hides whenever input is grabbed."
 msgstr ""
-"标头栏显示在连接屏幕的上方。在全屏模式下，顶栏会悬浮显示，并在鼠标和键盘"
+"顶栏显示在连接屏幕的上方。在全屏模式下，顶栏会悬浮显示，并在鼠标和键盘"
 "输入被捕获时自动隐藏。"
 
 #: src/widget/preferences.rs:238
 msgid ""
 "The header bar is always shown above the connection screen, even in "
 "fullscreen mode."
-msgstr "标头栏总是显示在连接屏幕的上方，即使在全屏模式下也是如此。"
+msgstr "顶栏总是显示在连接屏幕的上方，即使在全屏模式下也是如此。"
 
 #: src/widget/preferences.rs:239
 msgid ""
 "The header bar is always shown as an overlay on top of the connection "
 "screen; it is hidden whenever input is grabbed."
-msgstr "标头栏总是在连接屏幕的顶部悬浮显示，并在输入被捕获时自动隐藏。"
+msgstr "顶栏总是在连接屏幕的顶部悬浮显示，并在输入被捕获时自动隐藏。"
 
 #: src/widget/quick_connect_dialog.blp:20
 #, no-c-format
